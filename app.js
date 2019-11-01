@@ -11,7 +11,9 @@ const http = require('http');
 //Geocoding 
 // Address -> lat/long -> weather
 
-const url1 = "https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1Ijoic2VhbmtpbSIsImEiOiJjazJnMHl6MW8wcTY0M2xvMDVlOHd3MzVsIn0.v2I7Y3x5djsMa_39oCUPJw";
-request({url: url1, json: true}, (error , response)=> {
-    console.log(error);
-});
+// const url1 = "https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1Ijoic2VhbmtpbSIsImEiOiJjazJnMHl6MW8wcTY0M2xvMDVlOHd3MzVsIn0.v2I7Y3x5djsMa_39oCUPJw";
+// request({url: url1, json: true}, (error , response)=> {
+//     console.log(error);
+// });
+
+
